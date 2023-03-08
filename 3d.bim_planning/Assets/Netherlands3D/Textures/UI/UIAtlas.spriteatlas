@@ -78,6 +78,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 67cfd04716ac34d43a9af111a9c9c47b, type: 3}
   - {fileID: 21300000, guid: fce9f047552e6dd4f95599fc698a4560, type: 3}
   - {fileID: 21300000, guid: 6b332477bb79fdc43a9d9b49abab2255, type: 3}
+  - {fileID: 21300000, guid: ea05d587b3d84844cb6854293065eca8, type: 3}
   - {fileID: 21300000, guid: 58d609b78c854cd41a93f9ba61a98444, type: 3}
   - {fileID: 21300000, guid: 145de90810f5c7c49b210732ec2e7627, type: 3}
   - {fileID: 21300000, guid: 7b1b6b18776685241aca28b4c7e01f95, type: 3}
@@ -156,6 +157,7 @@ SpriteAtlas:
   - TabField_Unactive
   - city-car_1
   - SDS_Pause_32x32
+  - icon_navisworks
   - LocationPointer
   - Field_BlackOutline
   - Icon_Play

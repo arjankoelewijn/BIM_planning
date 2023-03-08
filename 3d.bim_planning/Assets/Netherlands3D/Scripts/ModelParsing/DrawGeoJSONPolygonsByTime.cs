@@ -215,14 +215,14 @@ public class DrawGeoJSONPolygonsByTime : MonoBehaviour
 
     private void DrawPolygon(List<List<GeoJSONPoint>> polygon, DateTime startDateTime, DateTime endDateTime)
     {
-        List<IList<Vector3>> unityPolygon = new List<IList<Vector3>>();
+        List<List<Vector3>> unityPolygon = new List<List<Vector3>>();
 
         //Grouped polys
         for (int i = 0; i < polygon.Count; i++)
         {
             var contour = polygon[i];
 
-            IList<Vector3> polyList = new List<Vector3>();
+            List<Vector3> polyList = new List<Vector3>();
 
             if (coordinateType == CoordinateType.RD)
             {
@@ -241,8 +241,8 @@ public class DrawGeoJSONPolygonsByTime : MonoBehaviour
             unityPolygon.Add(polyList);
         }
 
-        GameObject newPolygonGameObject = polyonVisualiser.CreateAndReturnPolygons(unityPolygon);
-        if(newPolygonGameObject)
-            PolygonDrawn(newPolygonGameObject, startDateTime, endDateTime);
+        //GameObject newPolygonGameObject = polyonVisualiser.CreateAndReturnPolygons(unityPolygon);
+        //if(newPolygonGameObject)
+        //    PolygonDrawn(newPolygonGameObject, startDateTime, endDateTime);
     }
 }

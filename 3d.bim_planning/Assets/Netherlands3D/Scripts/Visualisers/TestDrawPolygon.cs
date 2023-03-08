@@ -29,7 +29,7 @@ namespace Netherlands3D.Visualisers
         [ContextMenu("DrawPolyWithHole")]
         private void DrawPolyWithHole()
         {
-            var testPolygons = new List<IList<Vector3>>();
+            var testPolygons = new List<List<Vector3>>();
             var outerCircle = new List<Vector3>();
             var innerSquareHole = new List<Vector3>();
             var innerRoundHole = new List<Vector3>();
