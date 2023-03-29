@@ -788,7 +788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fileInputName: fileInput
-  fileExtentions: obj
+  fileExtentions: obj,mtl
   multiSelect: 1
   eventFileLoaderFileImported: {fileID: 11400000, guid: cc9e8b6980247a544bf0b63aefa49ef1,
     type: 2}
