@@ -336,7 +336,7 @@ PrefabInstance:
         type: 3}
       propertyPath: DestroyMaterial
       value: 
-      objectReference: {fileID: 2100000, guid: 346243af5ffa12e43a0a74ea8abb87c6, type: 2}
+      objectReference: {fileID: 2100000, guid: e9e5ffc6b814ac7429c502c361cd31b7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca9207960df494541b7de99bb4304959, type: 3}
 --- !u!114 &138254639 stripped
@@ -10325,6 +10325,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2117510834}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2123581628 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2642371138538196583, guid: c4f194f0997e2ea4b9520150dde82424,
+    type: 3}
+  m_PrefabInstance: {fileID: 2850881900168363181}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2146120903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11099,6 +11105,53 @@ PrefabInstance:
       propertyPath: m_Name
       value: TimelinePanel
       objectReference: {fileID: 0}
+    - target: {fileID: 5319996228665349454, guid: c4f194f0997e2ea4b9520150dde82424,
+        type: 3}
+      propertyPath: onEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: 786f08557139f6546866533fc3ccfe98,
+        type: 2}
+    - target: {fileID: 5319996228665349454, guid: c4f194f0997e2ea4b9520150dde82424,
+        type: 3}
+      propertyPath: trigger.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5319996228665349454, guid: c4f194f0997e2ea4b9520150dde82424,
+        type: 3}
+      propertyPath: trigger.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5319996228665349454, guid: c4f194f0997e2ea4b9520150dde82424,
+        type: 3}
+      propertyPath: trigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2123581628}
+    - target: {fileID: 5319996228665349454, guid: c4f194f0997e2ea4b9520150dde82424,
+        type: 3}
+      propertyPath: trigger.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5319996228665349454, guid: c4f194f0997e2ea4b9520150dde82424,
+        type: 3}
+      propertyPath: trigger.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5319996228665349454, guid: c4f194f0997e2ea4b9520150dde82424,
+        type: 3}
+      propertyPath: trigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5319996228665349454, guid: c4f194f0997e2ea4b9520150dde82424,
+        type: 3}
+      propertyPath: trigger.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: a37f81fd7e0e61d4bbed865079d91c01,
+        type: 2}
+    - target: {fileID: 5319996228665349454, guid: c4f194f0997e2ea4b9520150dde82424,
+        type: 3}
+      propertyPath: trigger.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8239499790927706199, guid: c4f194f0997e2ea4b9520150dde82424,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -11179,6 +11232,12 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9128350152673909889, guid: c4f194f0997e2ea4b9520150dde82424,
+        type: 3}
+      propertyPath: timelineData
+      value: 
+      objectReference: {fileID: 11400000, guid: a37f81fd7e0e61d4bbed865079d91c01,
+        type: 2}
     - target: {fileID: 9128350152687015540, guid: c4f194f0997e2ea4b9520150dde82424,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -11339,7 +11398,8 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1673200014238627724, guid: c4f194f0997e2ea4b9520150dde82424, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c4f194f0997e2ea4b9520150dde82424, type: 3}
 --- !u!224 &2850881900168363182 stripped
 RectTransform:
